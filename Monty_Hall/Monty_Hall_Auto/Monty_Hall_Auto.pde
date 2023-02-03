@@ -21,7 +21,7 @@ boolean[] removeByIndex(boolean[] array, int index) {
   return array;
 }
 void draw() {
-int randomDoor = floor(random(3));
+int randomDoor = floor(random(3) + 1);
 for (int stage = 1; stage < 3; stage++) {
   if (stage == 1) {
       doors = new boolean[3];
