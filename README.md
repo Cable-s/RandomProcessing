@@ -1,4 +1,4 @@
-# RandomProcessing
+# RandomProcessingProjects
 A repo for random small processing projects I work on
 
 Monty_Hall - The Monty Hall problem, there are 2 files. Monty_Hall.pde allows you to play the game from the console. Monty_Hall_Auto.pde will automatically play              and graph the wins : total on a pie chart, it'll always switch
