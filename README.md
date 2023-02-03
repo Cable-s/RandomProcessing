@@ -5,4 +5,6 @@ Monty_Hall - The Monty Hall problem, there are 2 files. Monty_Hall.pde allows yo
 
 Moon_Phases - a basic looking simulation of how the moon phases are seen from earth as it revolves around the earth
 
+RandomPi - I calculate Pi from random numbers using the probility that two random numbers being corpime equaling 6 / PI^2
+
 sketch_2DicePlot - Rolling 2 dice, adding the rolls, and plotting the results on a graph to see which is the most common number when rolling said two dice
