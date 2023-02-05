@@ -9,6 +9,8 @@ RandomPi - I calculate Pi from random numbers using the probility that two rando
 
 Ray_Marching - Ray Marching formula to draw circles and square that are placed randomly in an envirnment from a top down view (thanks coding train)
 
+Sound_Blocks - blocks that move back and forth at different rates, and play sounds when they bounce
+
 Terrain_Generator - 2D terrain generator using perlin noise to move a line up or down and left or right at each point
 
 sketch_2DicePlot - Rolling 2 dice, adding the rolls, and plotting the results on a graph to see which is the most common number when rolling said two dice
