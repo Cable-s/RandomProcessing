@@ -110,7 +110,7 @@ void DrawVectors() {
 
   for (int i = 0; i < vectors.size(); i++) {
     //println(vectors.get(i).magnitude, vectors.get(i).thetaDegrees, vectors.get(i).xStart, vectors.get(i).yStart, vectors.get(i).direction);
-    line(vectors.get(i).xStart, vectors.get(i).yStart, vectors.get(i).xStart + vectors.get(i).xComponent, vectors.get(i).yStart + vectors.get(i).yComponent);
+    //line(vectors.get(i).xStart, vectors.get(i).yStart, vectors.get(i).xStart + vectors.get(i).xComponent, vectors.get(i).yStart + vectors.get(i).yComponent);
     
 
     //println(vectors.get(i).xComponent, vectors.get(i).yComponent);
