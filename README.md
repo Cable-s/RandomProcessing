@@ -11,6 +11,8 @@ RandomPi - I calculate Pi from random numbers using the probility that two rando
 
 Ray_Marching - Ray Marching formula to draw circles and square that are placed randomly in an envirnment from a top down view (thanks coding train)
 
+Sierpinski_triangle - Saw a video on instagram saying that if you take a random point in a triangle and draw another point to one of the vertices of the triangle and iterate it where each points goes half way to another vertex. you'll get the Sierpinski triangle and lo and behold.
+
 Sound_Blocks - blocks that move back and forth at different rates, and play sounds when they bounce
 
 Terrain_Generator - 2D terrain generator using perlin noise to move a line up or down and left or right at each point
