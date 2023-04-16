@@ -1,31 +1,25 @@
-
-float[] xpoints = new float[400];
-float[] ypoints = new float[400];
+FloatList xpoints = new FloatList();
+FloatList ypoints = new FloatList();
 Circle[] circles;
 int i = 0;
-float graphy;
-float graphx;
 void setup() {
+  size(1000, 1000);
+  frameRate(60);
   String[] info = loadStrings("info.txt");
-  int numCircles = int(info[0]);
+  int numCircles = int(info[6]);
   float[] radius = new float[numCircles];
   float[] frequency = new float[numCircles];
   float[] angle = new float[numCircles];
-  size(1000, 1000);
-  frameRate(60);
-  int o = 2;    
+  int o = 8;    
   for (int y = 0; y < numCircles; y++) {  
       radius[y] = float(info[o]);
       frequency[y] = float(info[o + 1]);
       angle[y] = float(info[o + 2]);
-      println(y, o);
       o += 4;
     }
   circles = new Circle[numCircles];
-  int numCircle = 0;
   for (int k = 0; k < circles.length; k++) {
-    circles[numCircle] = new Circle(angle[numCircle], 0, 0, 500, 500, radius[numCircle], frequency[numCircle]);
-    numCircle++;
+    circles[k] = new Circle(angle[k], 0, 0, 500, 500, radius[k], frequency[k]);
   }
 }
 void draw() {
@@ -39,19 +33,24 @@ void draw() {
       circles[p].Update();
       circles[p].Draw();
     }
-    graphx = circles[circles.length - 1].x + circles[circles.length - 1].xc;
-    graphy = circles[circles.length - 1].y + circles[circles.length - 1].yc;;
-    line(graphx, graphy, circles[circles.length - 1].x + circles[circles.length - 1].xc, circles[circles.length - 1].y + circles[circles.length - 1].yc);  
-    xpoints[i] = graphx;
-    ypoints[i] = graphy;
+    float graphx = circles[circles.length - 1].x + circles[circles.length - 1].xc;
+    float graphy = circles[circles.length - 1].y + circles[circles.length - 1].yc;;
+    xpoints.append(graphx);
+    ypoints.append(graphy);
+    float[] xpointsA = xpoints.array();
+    float[] ypointsA = ypoints.array();
     i++;
-    for (int k = 0; k < 400; k++) { 
-      stroke(0);
-      strokeWeight(2);
-      circle(xpoints[k], ypoints[k], 3);
-      strokeWeight(1);
+    for (int k = 0; k < xpointsA.length; k++) { 
+      if (k != 0) {
+        stroke(0);
+        strokeWeight(3);
+        line(xpointsA[k], ypointsA[k], xpointsA[k - 1], ypointsA[k - 1]);
+        strokeWeight(1);
+      }
     }
-    if (i == 400) { 
-      i = 0;
+    if (xpointsA.length > 1000) {
+      xpoints.remove(0);
+      ypoints.remove(0);
     }
+    println(xpointsA.length);
 }
