@@ -1,0 +1,23 @@
+first number = number of circles
+list 3 numbers for each circle :
+	radius of circle (magnitude if you think in vectors)
+	frequency it spins (positive is counter-clockwise)
+	starting angle (degrees)
+~~~~~~~~
+4
+~~~~~~~~
+100
+1
+0
+~~~~~~~~
+50
+-2
+0
+~~~~~~~~
+25
+4
+0
+~~~~~~~~
+50
+-7
+90
