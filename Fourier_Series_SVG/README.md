@@ -1,5 +1,5 @@
 to use bot
-step 1: download SVG
+step 1: download SVG <p>
 step 2: go to https://spotify.github.io/coordinator/
 step 3: upload SVG
 step 4: click on Get Coordinates and change the file type to CSV
