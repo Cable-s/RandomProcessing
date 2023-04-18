@@ -1,4 +1,4 @@
-to use bot<p>
+How to use bot:<p>
 step 1: download SVG <p>
 step 2: go to https://spotify.github.io/coordinator/<p>
 step 3: upload SVG<p>
