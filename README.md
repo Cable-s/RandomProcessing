@@ -3,9 +3,9 @@ A repo for random small processing projects I work on
 
 Fourier_Series - fourier series up to 6 circles, showing how to get closer to a square wave if you have infinite of them.
 
-Fourier_Series_SVG - Automatically create a fourier series for a set of coordinates. 
+Fourier_Series_SVG - created a tool to draw any picture with fourier series. you can create your own drawing by converting an SVG to CSV and it'll read that file and draw the picture
 
-Fourier_Series_draw_line - created a tool to draw any picture with fourier series. you can create your own drawing by adding the magnitude, frequency, and starting angle of each vector in the "info.txt". still pretty crude though i would like to add a bot that reads SVG files and creates the vectors from that.
+Fourier_Series_draw_line - Automatically create a fourier series for a set of coordinates. 
 
 Lorenz_system - made a sketch that draws the lorenz systems, you can change the values of rho, sigma, and beta gradually with the keys 1 - 7.
 
