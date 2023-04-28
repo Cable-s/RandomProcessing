@@ -7,6 +7,8 @@ Fourier_Series_SVG - Automatically create a fourier series for a set of coordina
 
 Fourier_Series_draw_line - created a tool to draw any picture with fourier series. you can create your own drawing by adding the magnitude, frequency, and starting angle of each vector in the "info.txt". still pretty crude though i would like to add a bot that reads SVG files and creates the vectors from that.
 
+Lorenz_system - made a sketch that draws the lorenz systems, you can change the values of rho, sigma, and beta gradually with the keys 1 - 7.
+
 Monty_Hall - The Monty Hall problem, there are 2 files. Monty_Hall.pde allows you to play the game from the                              console. Monty_Hall_Auto.pde will automatically play              and graph the wins : total on a pie chart, it'll always switch
 
 Moon_Phases - a basic looking simulation of how the moon phases are seen from earth as it revolves around the earth
